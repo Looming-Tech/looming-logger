@@ -18,8 +18,23 @@ Add to your `pubspec.yaml`:
 dependencies:
   looming_logger:
     git:
-      url: https://github.com/stefanminch/looming-logger.git
+      url: https://github.com/Looming-Tech/looming-logger.git
 ```
+
+Then run `flutter pub get`.
+
+## Dependencies
+
+This SDK uses the following packages (handled automatically by Flutter):
+
+```yaml
+http: ^1.2.2
+device_info_plus: ^10.1.0
+package_info_plus: ^8.0.0
+shared_preferences: ^2.2.0
+```
+
+You don't need to add these to your project - Flutter resolves transitive dependencies automatically. However, if your project already uses any of these packages with a different version, you may need to align versions to avoid conflicts.
 
 ## Usage
 
