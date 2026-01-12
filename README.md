@@ -7,7 +7,7 @@ Remote logging SDK for Flutter apps. Sends logs to a self-hosted Loki backend wi
 | Platform | Repository |
 |----------|------------|
 | Flutter | [looming-logger-flutter](https://github.com/Looming-Tech/looming-logger-flutter) |
-| Swift (iOS) | [looming-logger-swift](https://github.com/Looming-Tech/looming-logger-flutter-swift) |
+| Swift (iOS) | [looming-logger-swift](https://github.com/Looming-Tech/looming-logger-swift) |
 
 ## Features
 
